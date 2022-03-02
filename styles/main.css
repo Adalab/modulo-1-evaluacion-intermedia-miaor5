@@ -88,3 +88,45 @@ font-size:30px
 
     
 }
+
+@media all and (min-width:768px){
+
+    .header{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    width: 100%;
+    }
+
+    .line{
+
+        font-size: 1.3rem;
+        color:#FFFFFF  ;
+        font-family: var(--font-family);
+    }
+
+
+    .imagen{
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        
+      }
+      
+      .option{
+
+        gap: 20px;
+        padding-bottom: 13px;
+        padding-right: 30px;
+       
+      
+    }
+    
+        
+}
+
