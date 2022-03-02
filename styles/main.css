@@ -8,40 +8,66 @@
 }
 
 :root {
-
-    --colormenu:#4a4a4a
+--font-family: 'Rubik', sans-serif; 
+ --colormenu:#4a4a4a
     --fondo:#3cdbc0
     --texto:#FFFFFF 
 }
 
 html{
 
-font-family: font-family: 'Rubik', sans-serif; 
 font-size:30px
 
 }
 
-.header{
+.menu{
 
-
-
-
+    color:#4a4a4a;
+    font-size: 16px;
+    font-family: var(--font-family);
+    text-decoration: none;
+  
 }
 
 
-.list{
+.option{
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 13px;
+   
+  
 }
 
 
 
+}
+.header{
 
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0;
+    width: 100%;
+    
+    
+}
+.imagen{
+
+  box-sizing: content-box;
+  min-width: 155px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+}
 
 .main{
 
@@ -52,13 +78,13 @@ font-size:30px
     justify-content: center;
     align-items: center;
   
-    
 
 }
 
 .line{
     font-size: 1rem;
     color:#FFFFFF  ;
+    font-family: var(--font-family);
 
     
 }
